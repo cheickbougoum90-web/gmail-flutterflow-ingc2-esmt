@@ -830,10 +830,7 @@ class _PageAcceuilWidgetState extends State<PageAcceuilWidget> {
                             child: Container(
                               width: 164.2,
                               height: 100.0,
-                              decoration: BoxDecoration(
-                                color: FlutterFlowTheme.of(context)
-                                    .primaryBackground,
-                              ),
+                              decoration: BoxDecoration(),
                               child: Align(
                                 alignment: AlignmentDirectional(1.0, 0.0),
                                 child: Padding(
@@ -926,10 +923,7 @@ class _PageAcceuilWidgetState extends State<PageAcceuilWidget> {
                             child: Container(
                               width: 182.7,
                               height: 100.0,
-                              decoration: BoxDecoration(
-                                color: FlutterFlowTheme.of(context)
-                                    .primaryBackground,
-                              ),
+                              decoration: BoxDecoration(),
                               child: Align(
                                 alignment: AlignmentDirectional(1.0, 0.0),
                                 child: Padding(
@@ -1202,10 +1196,7 @@ class _PageAcceuilWidgetState extends State<PageAcceuilWidget> {
                             child: Container(
                               width: 159.2,
                               height: 100.0,
-                              decoration: BoxDecoration(
-                                color: FlutterFlowTheme.of(context)
-                                    .primaryBackground,
-                              ),
+                              decoration: BoxDecoration(),
                               child: Align(
                                 alignment: AlignmentDirectional(1.0, 0.0),
                                 child: Padding(
@@ -1298,10 +1289,7 @@ class _PageAcceuilWidgetState extends State<PageAcceuilWidget> {
                             child: Container(
                               width: 98.9,
                               height: 100.0,
-                              decoration: BoxDecoration(
-                                color: FlutterFlowTheme.of(context)
-                                    .primaryBackground,
-                              ),
+                              decoration: BoxDecoration(),
                               child: Align(
                                 alignment: AlignmentDirectional(1.0, 0.0),
                                 child: Padding(
@@ -1394,10 +1382,7 @@ class _PageAcceuilWidgetState extends State<PageAcceuilWidget> {
                             child: Container(
                               width: 191.64,
                               height: 100.0,
-                              decoration: BoxDecoration(
-                                color: FlutterFlowTheme.of(context)
-                                    .primaryBackground,
-                              ),
+                              decoration: BoxDecoration(),
                               child: Align(
                                 alignment: AlignmentDirectional(1.0, 0.0),
                                 child: Padding(
@@ -1550,10 +1535,7 @@ class _PageAcceuilWidgetState extends State<PageAcceuilWidget> {
                             child: Container(
                               width: 152.7,
                               height: 100.0,
-                              decoration: BoxDecoration(
-                                color: FlutterFlowTheme.of(context)
-                                    .primaryBackground,
-                              ),
+                              decoration: BoxDecoration(),
                               child: Align(
                                 alignment: AlignmentDirectional(1.0, 0.0),
                                 child: Padding(
@@ -1929,7 +1911,7 @@ class _PageAcceuilWidgetState extends State<PageAcceuilWidget> {
         appBar: PreferredSize(
           preferredSize: Size.fromHeight(60.0),
           child: AppBar(
-            backgroundColor: FlutterFlowTheme.of(context).primary,
+            backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
             automaticallyImplyLeading: false,
             leading: Align(
               alignment: AlignmentDirectional(1.0, 0.0),
@@ -1940,7 +1922,6 @@ class _PageAcceuilWidgetState extends State<PageAcceuilWidget> {
                   child: FlutterFlowIconButton(
                     borderRadius: 8.0,
                     buttonSize: 56.9,
-                    fillColor: FlutterFlowTheme.of(context).primary,
                     icon: Icon(
                       Icons.dehaze_rounded,
                       color: FlutterFlowTheme.of(context).primaryText,
